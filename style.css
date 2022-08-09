@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 10px 5rem;
+}
+
+.nav-items {
+  display: flex;
+  padding-left: 1.5rem;
+  gap: 4rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  color: #fe5e35;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+nav div + img:hover {
+  cursor: pointer;
+}
+
+.intro-section {
+  display: flex;
+  height: 84.7vh;
+}
+
+.left-section {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 5rem;
+}
+
+.left-section h3 {
+  font-size: 2rem;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-section h1 {
+  font-size: 4rem;
+  font-family: "Fredoka One";
+  position: relative;
+  bottom: 3rem;
+  font-weight: 500;
+}
+
+.sub-headlines {
+  position: relative;
+  bottom: 5.7rem;
+  padding-left: 4rem;
+  letter-spacing: 1.5px;
+}
+
+.sub-headline {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sub-headline img {
+  background-color: #fe5e35;
+  border-radius: 50px;
+  padding: 4px;
+}
+
+.text {
+  position: relative;
+  bottom: 5rem;
+  color: #c0c0c0;
+  font-size: small;
+  width: 600px;
+  font-weight: 100;
+}
+
+.action-btns {
+  position: relative;
+  bottom: 4rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.action-btn {
+  border: none;
+  background-color: #fe5e35;
+  padding: 14px 35px;
+  border-radius: 2rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.discount-content + img {
+  position: absolute;
+  top: 18%;
+  left: 53%;
+  height: 410px;
+}
+
+.discount {
+    position: absolute;
+    top: 49%;
+    left: 51%;
+    z-index: 1;
+    height: 145px;
+}
+
+.discount-content {
+    position: absolute;
+    top: 50%;
+    left: 53.5%;
+    z-index: 2;
+    height: 118px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.discount-content h1 {
+    position: relative;
+    bottom: 1.4rem;
+    right: 1rem;
+    font-size: 3rem;
+}
+
+.discount-content h4 {
+    position: relative;
+    right: 1rem;
+    font-size: small;
+    text-align: center;
+}
+
+.dots{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 75%;
+    left: 62%;
+
+}
+
+.dot.yellow-dot {
+    background-color: #ffff00;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+}
+
+.dot.tomato-dot {
+    background-color: #ff6347;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+}
+
+.dot.black-dot {
+    background-color: #000000;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+}
+
+.dots+.action-btn{
+    position: relative;
+    top: 32.7rem;
+    right: 4rem;
+    
+}
