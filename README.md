@@ -5,7 +5,7 @@
 <br>
 
 ![Project 7](/project7.png)
-![Gif](https://github.com/Pritika17/Project-7_Product_Home_page/blob/main/p7-vdo.gif)
+<img src="https://github.com/Pritika17/Project-7_Product_Home_page/blob/main/p7-vdo.gif" alt="vdo" width="300px" />
 
 <br>
 <br>
