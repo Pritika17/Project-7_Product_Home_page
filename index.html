@@ -15,14 +15,20 @@
   </head>
   <body>
     <nav>
-      <img src="./images/logo.svg" alt="logo" />
+      <input id="nav-toggle" type="checkbox">
+      <img src="./images/logo.svg" class="logo" alt="logo" />
       <div class="nav-items">
         <h5 class="nav-item active-item">Home</h5>
         <h5 class="nav-item">Product</h5>
         <h5 class="nav-item">Price</h5>
         <h5 class="nav-item">About</h5>
       </div>
-      <img src="./images/actions.svg" alt="actions" />
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      <img src="./images/actions.svg" class="icons" alt="actions" />
     </nav>
     <div class="intro-section">
       <div class="left-section">
@@ -60,14 +66,14 @@
             <h4>Discount</h4>
             <h1>50%</h1>
           </div>
-          <img src="./images/headphones.jpg" alt="headphone" />
+          <img src="./images/headphones.jpg" alt="headphone" class="headphone-img" />
         </div>
         <div class="dots">
           <div class="dot yellow-dot"></div>
           <div class="dot tomato-dot"></div>
           <div class="dot black-dot"></div>
         </div>
-        <button class="action-btn">Add to chart</button>
+        <button class="action-btn" id="add">Add to chart</button>
       </div>
     </div>
   </body>
